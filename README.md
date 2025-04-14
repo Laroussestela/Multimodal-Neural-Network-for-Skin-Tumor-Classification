@@ -28,3 +28,23 @@ El conjunto de datos está compuesto por:
 
 ![image](https://github.com/user-attachments/assets/1819f57a-cdb3-4873-bbee-a2080742ce75)
 
+## 📋 Métricas Comparativas
+
+| Modelo                     | Loss   | Accuracy | Precision | Recall | Specificidad | F1-Score |
+|---------------------------|--------|----------|-----------|--------|---------------|----------|
+| CNN (solo imagen)         | 0.7561 | 0.8720   | 0.8729    | 0.8705 | 0.9789        | 0.8717   |
+| Red Neuronal Multimodal   | 0.5292 | 0.9149   | 0.9184    | 0.9120 | 0.9832        | 0.9151   |
+
+🧠 **Conclusión**:  
+La red neuronal multimodal **supera claramente** a la CNN tradicional, demostrando que **integrar información clínica adicional mejora significativamente el rendimiento del modelo**.
+
+---
+
+## 📉 Matriz de Confusión
+
+A continuación, se muestra la **matriz de confusión** de la Red Neuronal Multimodal en el conjunto de test, para las 7 clases posibles del problema de clasificación:
+
+![image](https://github.com/user-attachments/assets/ba386eb3-a59b-413c-b810-5dd6c4249e77)
+
+
+
